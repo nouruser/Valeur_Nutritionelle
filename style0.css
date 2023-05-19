@@ -1,0 +1,194 @@
+@font-face
+{
+ font-family: 'Dayrom';
+ src: url('polices/dayrom.eot');
+ src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+ url('polices/dayrom.woff') format('woff'),
+ url('polices/dayrom.ttf') format('truetype'),
+ url('polices/dayrom.svg#Dayrom') format('svg');
+ font-weight: normal;
+ font-style: normal}
+
+#page{
+width: 900px;
+margin: 0 auto;}
+
+body {
+    font: normal 90% "Trebuchet Ms" , Verdana , "lucida Grande",Tahoma ;
+    color: #444;
+    background:rgb(3, 252, 32) url(./src/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background.jpg) top repeat-x fixed ;
+    padding: 0 0 2em 0;
+    margin: 0;
+}
+
+
+header{
+ display:block;
+ border: solid 1px rgb(10, 10, 10);
+ padding: 10px;
+ margin: 10px 0;
+ background-color:#298e29 ;
+ border-radius: 1em;
+ box-shadow: -4px 4px 8px #151515;
+
+}
+header figure{
+    margin-right: 100px;
+    height: 130px;
+    float: left;
+}
+header h1{
+    
+    font-size: 4em;
+    font-weight: normal;
+    margin: 0;
+}
+header h2{
+    font-family: 'Dayrom';
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 2.5em 10em;
+    color: #e74b25;
+
+
+}
+aside{
+    width: 250px;
+    height: 300px;
+    float: left;
+    padding-right: 35px;
+    margin: 10px;
+    border: solid 1px #777;
+    background-color: #4ADEDE;
+    box-shadow: -8px 8px 12px #151515;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    border-radius : .6em .6em 0 0 ;
+list-style-type: none; 
+color: rgb(7, 7, 7);
+    
+
+}
+
+aside li{
+    text-decoration : none ;
+    list-style: none;
+    text-align: center;
+}
+
+aside li a{ 
+    display :block;
+    padding : 3px 5px 3px 5px;
+     margin : 5px 0 0 0;
+    border : solid 1px #050505;
+    border-left :solid 2px #050550;
+   
+    font-size : .9em ; font-weight : bold ;
+    color : #222;
+    background : #dddddd ;
+border-radius : 0px 12px 12px 0px ;
+box-shadow : inset -2px 2px 4px #999999;
+transition: all .3s ease-in-out;
+background : -moz-linear-gradient( top , #efefef, #bcbcbc);
+-moz-border-radius : 0px 12px 12px 0px ;
+ -moz-box-shadow : inset -2px 2px 4px #777777;
+ background : gradient(linear, 0% 0% , 0% 100%, from(#efefef), to(#bcbcbc));
+border-radius : 0px 12px 12px 0px;
+box-shadow : inset -3px 3px 5px #777777;
+
+}
+aside li span {font-size : .8em;font-style : italic; color : #777;}
+
+aside li{
+    text-align : center; background-color : #151515 ; color : #fff;padding : 4px 0 ;
+border : solid 1px #777;
+border-radius : .6em .6em 0 0 ;
+-moz-border-radius : .6em .6em 0 0 ;
+
+}
+
+aside li a:hover{
+    color :#030303;
+    display: block;
+    border-left: solid 24px #ffD700;
+    padding: 3px 5px 3px 25px;
+    background: -moz-linear-gradient(top,#555555,#333333);
+    box-shadow: inset -2px 2px 4px #050505;
+}
+
+nav{
+    background-color: #2b0157;    
+    height: 35px;
+    border-radius: 1em;
+}
+nav li{
+    float: left;
+    width: 140px;
+    height: 35px;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    border-left:  1px white solid ;
+    border-right: 1px white solid;
+    list-style: none;
+    line-height: 35px;
+}
+nav li a{
+    color:white;
+    
+    list-style-type: none;
+    display: block;
+
+}
+nav li a:hover{
+    background-color: #ffD700;
+    color: #ebebeb;
+}
+
+
+section{
+    float: right;
+    display: block;
+    width: 580px;
+    background-color:  #efefef;
+    border-radius: 8px;
+    border-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: -8px 8px 12px #151515;
+
+}
+
+section h4{
+    margin-left: 25px;
+}
+section h2{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Dayrom';
+    color: #D37B07;
+
+}
+section p,h1,h3{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    clear: both;
+    color: #dedede;
+    background-color: #353535;
+    border: solid 1px  ;
+    border-color: #777;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1em;
+    box-shadow: -4px 4px 8px #151515; background: linear-gradient(top,#333333,
+#161616);
+font-family: 'Dayrom';
+
+}
